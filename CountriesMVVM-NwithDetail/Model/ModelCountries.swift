@@ -9,9 +9,11 @@
 import Foundation
 
 struct ModelCountries: Decodable {
+    
     var name: String
     var alpha3Code: String
     var capital: String
+    
     var region: Region
     
     var population: Int
@@ -40,3 +42,4 @@ enum Region: String, Codable {
     case oceania = "Oceania"
     case polar = "Polar"
 }
+

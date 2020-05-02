@@ -8,11 +8,11 @@
 
 import Foundation
 
-class NetworkDataFetcher {
+class NetworkDataFetcherForAllCountries: NSObject {
     
     let networkService = NetworkService()
     
-    func fetch(with urlString: String, response: @escaping ([ModelCountries]?) -> Void) {
+    func fetchAllCountries(with urlString: String, response: @escaping ([ModelCountries]?) -> Void) {
         networkService.request(with: urlString) { (result) in
             switch result {
             case .success(let data):
