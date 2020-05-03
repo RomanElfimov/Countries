@@ -60,7 +60,13 @@ class TabelViewViewModel: NSObject, TableViewViewModelType {
     
     func viewModelForSelectedRow() -> DetailViewControllerViewModelType? {
         guard let selectedIndexPath = selectedIndexPath else { return nil }
-        return DetailViewControllerViewModel(country: countriesArray[selectedIndexPath.row])
+        let country: ModelCountries
+        if isFilterig {
+            country = filteredCountries[selectedIndexPath.row]
+        } else {
+            country = countriesArray[selectedIndexPath.row]
+        }
+        return DetailViewControllerViewModel(country: country)
     }
     
     func selectRow(at indexPath: IndexPath) {

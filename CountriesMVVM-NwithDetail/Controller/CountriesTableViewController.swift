@@ -78,7 +78,6 @@ class CountriesTableViewController: UITableViewController {
         
         if identifier == "DetailSegue" {
             if let destinationVC = segue.destination as? DetailViewController {
-                
                 destinationVC.viewModel = viewModel.viewModelForSelectedRow()
             }
         }
