@@ -12,7 +12,7 @@ protocol TableViewViewModelType {
     
     var urlString: String { get }
     var countriesArray: [ModelCountries] { get }
-    
+
     func numberOfRows() -> Int
     func fetch(completion: @escaping() -> ())
     func cellViewModel(at indexPath: IndexPath) -> TableViewCellViewModelType?

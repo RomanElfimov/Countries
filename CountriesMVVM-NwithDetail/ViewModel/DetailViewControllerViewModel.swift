@@ -42,7 +42,7 @@ class DetailViewControllerViewModel: DetailViewControllerViewModelType {
     
     
     var currencies: String {
-        return (country.currencies[0].name ?? "no data about currency") + (country.currencies[0].symbol ?? "")
+        return (country.currencies[0].name ?? "no data about currency") + "  Symbol:  " + (country.currencies[0].symbol ?? "")
     }
     
     var languages: String {
