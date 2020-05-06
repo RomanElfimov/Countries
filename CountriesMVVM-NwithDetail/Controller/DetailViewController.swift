@@ -34,7 +34,7 @@ class DetailViewController: UIViewController {
         self.capitalLabel.text = "Capital: \(viewModel.capital)"
 
         self.populationLabel.text = "Population: \(viewModel.population) people"
-        self.areaLabel.text = "Area: \(viewModel.area ?? "") sqkm"
+        self.areaLabel.text = "Area: \(viewModel.area ?? "")"
         
         self.regionLabel.text = "Region: \(viewModel.region)"
         self.coordinatesLabel.text = "Coordinates: \(viewModel.coordinates)"

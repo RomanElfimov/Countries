@@ -20,7 +20,11 @@ class DetailViewControllerViewModel: DetailViewControllerViewModelType {
     }
     
     var capital: String {
-        return country.capital
+        if country.capital != "" {
+            return country.capital
+        } else {
+            return "no capital"
+        }
     }
     
     var population: String {
@@ -28,8 +32,8 @@ class DetailViewControllerViewModel: DetailViewControllerViewModelType {
     }
     
     var area: String? {
-        guard let countryArea = country.area else { return nil }
-        return String(countryArea)
+        guard let countryArea = country.area else { return "no data about area" }
+        return String(countryArea) + " sqkm"
     }
     
     var region: String {
@@ -38,7 +42,11 @@ class DetailViewControllerViewModel: DetailViewControllerViewModelType {
     
     // TODO: - error index out of range
     var coordinates: String {
-        return String(country.latlng[0]) + "   " + String(country.latlng[1])
+        if country.latlng != [] {
+            return String(country.latlng[0]) + "   " + String(country.latlng[1])
+        } else {
+            return "no coordinates"
+        }
     }
     
     
