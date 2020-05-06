@@ -36,6 +36,7 @@ class DetailViewControllerViewModel: DetailViewControllerViewModelType {
         return "\(country.region)"
     }
     
+    // TODO: - error index out of range
     var coordinates: String {
         return String(country.latlng[0]) + "   " + String(country.latlng[1])
     }

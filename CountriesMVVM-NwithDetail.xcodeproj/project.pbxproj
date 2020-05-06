@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E03131C7245CA0F2009AC4B3 /* CountriesMVVM-NwithDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CountriesMVVM-NwithDetail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03131C7245CA0F2009AC4B3 /* Search Countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Search Countries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E03131CA245CA0F2009AC4B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E03131CC245CA0F2009AC4B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E03131D1245CA0F2009AC4B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		E03131C8245CA0F2009AC4B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E03131C7245CA0F2009AC4B3 /* CountriesMVVM-NwithDetail.app */,
+				E03131C7245CA0F2009AC4B3 /* Search Countries.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 			);
 			name = "CountriesMVVM-NwithDetail";
 			productName = "CountriesMVVM-NwithDetail";
-			productReference = E03131C7245CA0F2009AC4B3 /* CountriesMVVM-NwithDetail.app */;
+			productReference = E03131C7245CA0F2009AC4B3 /* Search Countries.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -376,7 +376,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RomaDeveloper.CountriesMVVM-NwithDetail";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Search Countries";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -394,7 +394,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RomaDeveloper.CountriesMVVM-NwithDetail";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Search Countries";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -32,13 +32,6 @@ class TabelViewViewModel: NSObject, TableViewViewModelType {
         }
     }
     
-    func numberOfRows() -> Int {
-        if isFilterig {
-            return filteredCountries.count
-        }
-        return countriesArray.count
-    }
-    
     // Метод фильтрует контент по поисковой строке
     func filterContentForSearchText(_ searchText: String, completion: @escaping () -> ()) {
         filteredCountries = countriesArray.filter { (country: ModelCountries) -> Bool in
@@ -46,6 +39,13 @@ class TabelViewViewModel: NSObject, TableViewViewModelType {
             return country.name.lowercased().contains(searchText.lowercased())
         }
         completion()
+    }
+    
+    func numberOfRows() -> Int {
+        if isFilterig {
+            return filteredCountries.count
+        }
+        return countriesArray.count
     }
     
     func cellViewModel(at indexPath: IndexPath) -> TableViewCellViewModelType? {
