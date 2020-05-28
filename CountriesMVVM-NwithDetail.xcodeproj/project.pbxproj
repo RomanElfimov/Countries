@@ -24,6 +24,7 @@
 		E03131F6245D6E85009AC4B3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03131F5245D6E85009AC4B3 /* DetailViewController.swift */; };
 		E03131FA245D6F2B009AC4B3 /* DetailViewControllerViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03131F9245D6F2B009AC4B3 /* DetailViewControllerViewModelType.swift */; };
 		E03131FC245D6F3D009AC4B3 /* DetailViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03131FB245D6F3D009AC4B3 /* DetailViewControllerViewModel.swift */; };
+		E9039B19247FB2BA008FEC96 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E9039B18247FB2BA008FEC96 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		E03131F5245D6E85009AC4B3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E03131F9245D6F2B009AC4B3 /* DetailViewControllerViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerViewModelType.swift; sourceTree = "<group>"; };
 		E03131FB245D6F3D009AC4B3 /* DetailViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerViewModel.swift; sourceTree = "<group>"; };
+		E9039B18247FB2BA008FEC96 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				E03131D3245CA0F4009AC4B3 /* Assets.xcassets */,
 				E03131D5245CA0F4009AC4B3 /* LaunchScreen.storyboard */,
 				E03131D8245CA0F4009AC4B3 /* Info.plist */,
+				E9039B18247FB2BA008FEC96 /* .gitignore */,
 			);
 			path = "CountriesMVVM-NwithDetail";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9039B19247FB2BA008FEC96 /* .gitignore in Resources */,
 				E03131D7245CA0F4009AC4B3 /* LaunchScreen.storyboard in Resources */,
 				E03131D4245CA0F4009AC4B3 /* Assets.xcassets in Resources */,
 				E03131D2245CA0F2009AC4B3 /* Main.storyboard in Resources */,
