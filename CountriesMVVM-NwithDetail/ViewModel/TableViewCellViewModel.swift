@@ -10,6 +10,7 @@ import Foundation
 
 class TableViewCellViewModel: TableViewCellViewModelType {
    
+    //MARK: - Properties
     var country: ModelCountries
     
     var name: String {
